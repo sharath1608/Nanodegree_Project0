@@ -10,6 +10,8 @@
     <color name="red_active">#DD2C00</color>
     <color name="purple_dull">#B39DDB</color>
     <color name="purple_active">#7E57C2</color>
+    <color name="orange_dull">#FFB74D</color>
+    <color name="orange_active">#F57C00</color>
     <color name="cyan_dull">#18FFFF</color>
     <color name="cyan_active">#00B8D4</color>
 </resources>
