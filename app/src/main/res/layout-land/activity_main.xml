@@ -12,10 +12,12 @@
         android:id="@+id/movies_button"
         style="@style/movies_button_style"
         android:background="@drawable/movies_button_states"
-        android:layout_marginTop="62dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/scores_button"
-        android:layout_alignStart="@+id/scores_button" />
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/launcher_title_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginStart="121dp" />
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
@@ -23,9 +25,11 @@
         android:id="@+id/scores_button"
         style="@style/scores_button_style"
         android:background="@drawable/scores_button_states"
-        android:layout_below="@+id/movies_button"
-        android:layout_alignLeft="@+id/library_button"
-        android:layout_alignStart="@+id/library_button" />
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_alignTop="@+id/movies_button"
+        android:layout_toRightOf="@+id/movies_button"
+        android:layout_toEndOf="@+id/movies_button" />
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
@@ -33,8 +37,9 @@
         android:id="@+id/library_button"
         style="@style/library_button_style"
         android:background="@drawable/library_button_states"
-        android:layout_below="@+id/scores_button"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/movies_button"
+        android:layout_alignLeft="@+id/movies_button"
+        android:layout_alignStart="@+id/movies_button" />
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
@@ -42,8 +47,9 @@
         android:id="@+id/buildIt_button"
         style="@style/buildIt_button_style"
         android:background="@drawable/buildit_button_states"
-        android:layout_below="@+id/library_button"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/library_button"
+        android:layout_alignLeft="@+id/scores_button"
+        android:layout_alignStart="@+id/scores_button" />
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
@@ -51,8 +57,9 @@
         android:id="@+id/xyz_button"
         style="@style/XYZ_button_style"
         android:background="@drawable/xyz_button_states"
-        android:layout_below="@+id/buildIt_button"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/library_button"
+        android:layout_alignLeft="@+id/library_button"
+        android:layout_alignStart="@+id/library_button" />
     <Button
         android:layout_width="200dp"
         android:layout_height="70dp"
@@ -60,9 +67,12 @@
         android:id="@+id/capstone_button"
         style="@style/capstone_button_style"
         android:background="@drawable/capstone_button_states"
-        android:layout_below="@+id/xyz_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp" />
+        android:layout_below="@+id/buildIt_button"
+        android:layout_alignLeft="@+id/buildIt_button"
+        android:layout_alignStart="@+id/buildIt_button"
+        android:layout_alignBottom="@+id/xyz_button"
+        android:layout_alignRight="@+id/buildIt_button"
+        android:layout_alignEnd="@+id/buildIt_button" />
 
     <TextView
         android:layout_width="wrap_content"
