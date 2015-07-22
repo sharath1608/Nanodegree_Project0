@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_dull">#80D8FF</color>
+    <color name="blue_active">#0091EA</color>
+    <color name="green_dull">#69F0AE</color>
+    <color name="green_active">#00C853</color>
+    <color name="yellow_dull">#FFEE58</color>
+    <color name="yellow_active">#F9A825</color>
+    <color name="red_dull">#FF6E40</color>
+    <color name="red_active">#DD2C00</color>
+    <color name="purple_dull">#B39DDB</color>
+    <color name="purple_active">#512DA8</color>
+    <color name="cyan_dull">#18FFFF</color>
+    <color name="cyan_active">#00B8D4</color>
+</resources>

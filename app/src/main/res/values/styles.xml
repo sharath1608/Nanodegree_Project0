@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="spotify_button_style" parent="">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/blue_dull</item>
+    </style>
+    <style name="scores_button_style" parent="">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/green_dull</item>
+    </style>
+    <style name="library_button_style" parent="">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/yellow_dull</item>
+    </style>
+    <style name="buildIt_button_style" parent="">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/red_dull</item>
+    </style>
+    <style name="XYZ_button_style" parent="">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/cyan_dull</item>
+    </style>
+    <style name="capstone_button_style" parent="">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/purple_dull</item>
+    </style>
+
+</resources>
